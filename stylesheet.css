@@ -8,7 +8,7 @@ body {
 
 .card-info {
   background-color: white;
-  width: 300px;
+  max-width: 300px;
   height: 450px;
   border-radius: 0 15px 15px 0;
   font-family: "Montserrat", sans-serif;
@@ -17,7 +17,7 @@ body {
 }
 
 .product-image {
-  width: 300px;
+  max-width: 300px;
   height: 450px;
   border-radius: 15px 0 0 15px;
 }
@@ -30,6 +30,7 @@ body {
   letter-spacing: 3px;
   margin-top: 30px;
   color: hsl(228, 12%, 48%);
+  max-width: 100vh;
 }
 h1 {
   font-family: "Fraunces", serif;
@@ -60,6 +61,7 @@ h1 {
   bottom: 100px;
   right: 90px;
   color: hsl(228, 12%, 48%);
+  max-width: 100%;
 }
 #upper {
   text-transform: uppercase;
@@ -81,4 +83,10 @@ button {
 .fa-shopping-cart {
   margin-right: 12px;
   color: white;
+}
+
+@media screen and(max-width: 375px) {
+  body {
+    background-color: red;
+  }
 }
