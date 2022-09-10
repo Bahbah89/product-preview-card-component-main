@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-info {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 0 15px 15px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  position: relative;
+}
+
+.product-image {
+  width: 300px;
+  height: 450px;
+  border-radius: 15px 0 0 15px;
+}
+
+.title {
+  margin-left: 25px;
+  font-size: 13px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+  font-family: "Fraunces", serif;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.info-middle {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+}
+
+.new-price {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  margin-left: 25px;
+  color: hsl(158, 36%, 37%);
+}
+.old-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-left: 15px;
+  color: black;
+  text-decoration: line-through;
+  position: absolute;
+  bottom: 100px;
+  right: 90px;
+  color: hsl(228, 12%, 48%);
+}
+#upper {
+  text-transform: uppercase;
+}
+
+button {
+  width: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 45px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fa-shopping-cart {
+  margin-right: 12px;
+  color: white;
+}
